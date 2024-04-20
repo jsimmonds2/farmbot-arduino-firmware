@@ -2137,8 +2137,8 @@ void Movement::loadMotorSettings()
   motorCalibRetryTotal[1] = ParameterList::getInstance()->getValue(MOVEMENT_CALIBRATION_RETRY_TOTAL_Y);
   motorCalibRetryTotal[2] = ParameterList::getInstance()->getValue(MOVEMENT_CALIBRATION_RETRY_TOTAL_Z);
 
-  motorCalibRetryDeadzone[0] = ParameterList::getInstance()->getValue(MOVEMENT_CALIBRATION_DEADZONE_Z);
-  motorCalibRetryDeadzone[1] = ParameterList::getInstance()->getValue(MOVEMENT_CALIBRATION_DEADZONE_Z);
+  motorCalibRetryDeadzone[0] = ParameterList::getInstance()->getValue(MOVEMENT_CALIBRATION_DEADZONE_X);
+  motorCalibRetryDeadzone[1] = ParameterList::getInstance()->getValue(MOVEMENT_CALIBRATION_DEADZONE_Y);
   motorCalibRetryDeadzone[2] = ParameterList::getInstance()->getValue(MOVEMENT_CALIBRATION_DEADZONE_Z);
 
   stepsPerMm[0] = ParameterList::getInstance()->getValue(MOVEMENT_STEP_PER_MM_X);
